@@ -7,39 +7,26 @@
  * Return: 0
  */
 int main(void)
-{int c, d, e, f = 0;
-while (f < 10)
+{int j, i;
+for (j = 0; j <= 99; j++)
 {
-e = 0;
-while (e < 10)
+for (i = j; i <= 99; i++)
 {
-d = 0;
-while (d < 10)
+if (i != j)
 {
-c = 0;
-while (c < 10)
-{
-if(!(f == c && e == d))
-{
-putchar(f + '0');
-putchar(e + '0');
+putchar(j / 10 + 48);
+putchar(j % 10 + 48);
 putchar(' ');
-putchar(d + '0');
-putchar(c + '0');
-if (!(f + e == 18 && c + d == 17 && d == 9))
+putchar(i / 10 + 48);
+putchar(i % 10 + 48);
+if (j * 100 + i != 9899)
 {
 putchar(',');
 putchar(' ');
 }
 }
-c++;
 }
-d++;
-}
-e++;
-}
-f++;
 }
 putchar('\n');
-return(0);
+return (0);
 }
