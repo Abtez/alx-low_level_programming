@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main functio
- * Description: print all possible combination of 
+ * Description: print all possible combination of
  * two numbers separated by ' ,' 01 and 10 are
  * considered same combination
  * Return: 0
