@@ -8,7 +8,7 @@
  * Return: 0
  */
 int main(void)
-{int c, d, e=0;
+{int c, d, e = 0;
 while (e < 10)
 {
 d = 0;
