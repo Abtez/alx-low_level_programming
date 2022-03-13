@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * mian - main block
+ * main - main block
  * Description: print all single digits base ten
  * starting from 0 with new line
- * Return: 0 
+ * Return: 0
  */
 
 int main(void)
