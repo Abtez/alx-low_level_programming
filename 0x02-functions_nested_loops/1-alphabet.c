@@ -2,10 +2,11 @@
 #include "main.h"
 
 /**
- * print_alpahbets - prints aphabte in lowercase
+ * print_alpahbets - main function
+ * Description: print alphabtes in lowercase
  */
 
-void print_alphabet (void)
+void print_alphabet(void)
 {
 char c = 'a';
 while (c <= 'z')
