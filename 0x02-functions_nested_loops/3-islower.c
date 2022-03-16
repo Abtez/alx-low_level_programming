@@ -2,9 +2,11 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * _islower - main block
- * Description: function that checks for lowercase character.
- * Return: 0
+ * _islower - Check lowercase
+ * @c: An input character
+ * Description: function uses _putchar function to print
+ * alphabet in lowercase
+ * Return: 1 if is lowercase or 0 if is uppercase
  */
 int _islower(int c)
 {
